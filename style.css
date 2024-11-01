@@ -1,0 +1,143 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: titulo;
+    src: url(./heavitas/Heavitas.ttf);
+}
+
+
+.pandora1{
+    background-color: #e6c744;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    margin-top: 0;
+    display: flex;
+    justify-items: center;
+  
+}
+
+.inicio{
+    align-items: center;
+    height: 50vh;
+    margin-top: 0;
+    display: flex;
+    justify-items: center;
+    padding-top: 5%;
+}
+input[type="email"]{
+    border-radius: 4px;
+    box-sizing: border-box;
+    padding: 8px;
+    margin-bottom: 12px;
+    display: block;
+    border-color: #ffffff;
+    border: 1px solid white;
+    width: 350px;
+    height: 50px;
+    font-size: 16px;
+}
+
+button{
+   background-color: #000;
+   color: #ffffff;
+   width: 70px;
+   padding: 5px;
+   border-radius: 4px;
+   cursor: pointer;
+   border: none;
+   font-size: 14px;
+   height: 50px;
+}
+
+form{
+    display: flex;
+    padding-top: 2%;
+}
+
+.pandora1 h2{
+    font-size: 3rem;
+    color: #ffffff;
+    font-family:titulo;
+    text-align: center;
+    margin-left: 17% ;
+    margin-right: 17%;
+}
+
+.pandora1 p{
+    font-size: 1.7rem;
+    color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding-top: 2%;
+
+}
+
+footer{
+    background-color: #000;
+    color: #ffffff;
+    display: flex;
+    height: 50vh;
+}
+.footer11 h2{
+    color: #ffffff;
+    font-family: titulo;
+    margin-top: 25%;
+    margin-left: 20%;
+    font-size: 2.5rem;
+}
+
+.footer11 p{
+    text-align: left;
+    margin-left: 20%;
+    font-size: 1.3rem;
+}
+.sla1{
+    display: flex;
+    justify-content: space-around;
+}
+
+nav{
+    justify-content: center;
+    color: #ffffff;
+    text-align: justify;
+
+
+}
+div:not(.footer11){
+    display: block;
+    font-size: 1.4rem;
+   
+}
+
+footer:not(.footer1){
+    display: flex;
+
+}
+nav ul{
+    justify-content: space-around;
+    list-style-type: none;
+    margin-left: 35%;
+    padding: 35px;
+    padding-top: 25%;
+}
+
+nav ul li{
+    padding: 0 40px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #ffffff;
+ }
+
+
+
+    
+
+
+
